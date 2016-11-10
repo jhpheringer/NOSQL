@@ -1,0 +1,66 @@
+https://github.com/gcouti/nosql-class/blob/master/aula2/Aula%202%20-%20Opera%C3%A7%C3%B5es%20b%C3%A1sicas.pdf		
+> db.Alunos.find().sort ( {"DAta nasc": 1 }) .limit(1)
+
+> db.Alunos.update({"name":"Joao Henrique"}, {$set:{"Nota":10}}
+> db.Alunos.find().sort ( {$natural: 1 })
+{ "_id" : ObjectId("5824f44930594bc008c6e6ce"), "name" : "Joao Henrique", "DAta nasc" : ISODate("1971-05-13T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+{ "_id" : ObjectId("5824f48430594bc008c6e6cf"), "name" : "Willian Hofner", "DAta nasc" : ISODate("1965-07-09T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+{ "_id" : ObjectId("5824f4b530594bc008c6e6d0"), "name" : "Leandro", "DAta nasc" : ISODate("1978-12-18T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+
+> db.Alunos.find().sort ( {$natural: 1 })
+{ "_id" : ObjectId("5824f44930594bc008c6e6ce"), "name" : "Joao Henrique", "DAta nasc" : ISODate("1971-05-13T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+{ "_id" : ObjectId("5824f48430594bc008c6e6cf"), "name" : "Willian Hofner", "DAta nasc" : ISODate("1965-07-09T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+{ "_id" : ObjectId("5824f4b530594bc008c6e6d0"), "name" : "Leandro", "DAta nasc" : ISODate("1978-12-18T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+
+> db.Alunos.find().sort ( {"DAta nasc": 1 })
+{ "_id" : ObjectId("5824f48430594bc008c6e6cf"), "name" : "Willian Hofner", "DAta nasc" : ISODate("1965-07-09T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+{ "_id" : ObjectId("5824f44930594bc008c6e6ce"), "name" : "Joao Henrique", "DAta nasc" : ISODate("1971-05-13T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+{ "_id" : ObjectId("5824f4b530594bc008c6e6d0"), "name" : "Leandro", "DAta nasc" : ISODate("1978-12-18T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+> db.Alunos.find().sort ( {"DAta nasc": 1 }) .limit(1)
+{ "_id" : ObjectId("5824f48430594bc008c6e6cf"), "name" : "Willian Hofner", "DAta nasc" : ISODate("1965-07-09T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+
+
+> db.Alunos.find().sort ( {$natural: 1 })
+{ "_id" : ObjectId("5824f44930594bc008c6e6ce"), "name" : "Joao Henrique", "DAta nasc" : ISODate("1971-05-13T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+{ "_id" : ObjectId("5824f48430594bc008c6e6cf"), "name" : "Willian Hofner", "DAta nasc" : ISODate("1965-07-09T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+{ "_id" : ObjectId("5824f4b530594bc008c6e6d0"), "name" : "Leandro", "DAta nasc" : ISODate("1978-12-18T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+
+> db.Alunos.find().sort ( {$natural: 1 })
+{ "_id" : ObjectId("5824f44930594bc008c6e6ce"), "name" : "Joao Henrique", "DAta nasc" : ISODate("1971-05-13T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+{ "_id" : ObjectId("5824f48430594bc008c6e6cf"), "name" : "Willian Hofner", "DAta nasc" : ISODate("1965-07-09T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+{ "_id" : ObjectId("5824f4b530594bc008c6e6d0"), "name" : "Leandro", "DAta nasc" : ISODate("1978-12-18T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+
+
+> db.Alunos.find().sort ( {"DAta nasc": 1 })
+{ "_id" : ObjectId("5824f48430594bc008c6e6cf"), "name" : "Willian Hofner", "DAta nasc" : ISODate("1965-07-09T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+{ "_id" : ObjectId("5824f44930594bc008c6e6ce"), "name" : "Joao Henrique", "DAta nasc" : ISODate("1971-05-13T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+{ "_id" : ObjectId("5824f4b530594bc008c6e6d0"), "name" : "Leandro", "DAta nasc" : ISODate("1978-12-18T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+> db.Alunos.find().sort ( {"DAta nasc": 1 }) .limit(1)
+{ "_id" : ObjectId("5824f48430594bc008c6e6cf"), "name" : "Willian Hofner", "DAta nasc" : ISODate("1965-07-09T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+
+> 
+> db.Alunos.update({"name":"Joao Henrique"}, {$set:{"Nota":10}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Alunos.find()
+{ "_id" : ObjectId("5824f44930594bc008c6e6ce"), "name" : "Joao Henrique", "DAta nasc" : ISODate("1971-05-13T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados", "Nota" : 10 }
+{ "_id" : ObjectId("5824f48430594bc008c6e6cf"), "name" : "Willian Hofner", "DAta nasc" : ISODate("1965-07-09T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+{ "_id" : ObjectId("5824f4b530594bc008c6e6d0"), "name" : "Leandro", "DAta nasc" : ISODate("1978-12-18T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+
+
+> db.Alunos.remove({"name":"Leandro"})
+WriteResult({ "nRemoved" : 1 })
+
+
+> db.Alunos.update({"name":"Joao Henrique"}, {$set:{"Nota":10}})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.Alunos.find()
+{ "_id" : ObjectId("5824f44930594bc008c6e6ce"), "name" : "Joao Henrique", "DAta nasc" : ISODate("1971-05-13T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados", "Nota" : 10 }
+{ "_id" : ObjectId("5824f48430594bc008c6e6cf"), "name" : "Willian Hofner", "DAta nasc" : ISODate("1965-07-09T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+{ "_id" : ObjectId("5824f4b530594bc008c6e6d0"), "name" : "Leandro", "DAta nasc" : ISODate("1978-12-18T10:00:00Z"), "Disciplina" : "NoSql", "Curso" : "Ciencia de Dados" }
+
+> db.Alunos.delete({"name":"Leandro"})
+2016-11-10T21:20:36.279-0200 E QUERY    [thread1] TypeError: db.Alunos.delete is not a function :
+@(shell):1:1
+
+> db.Alunos.remove({"name":"Leandro"})
+WriteResult({ "nRemoved" : 1 })

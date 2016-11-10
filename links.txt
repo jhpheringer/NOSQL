@@ -1,0 +1,16 @@
+http://www.tibco.com/blog/2015/04/15/nosql-in-practice-real-world-use-cases-and-customer-success-stories-for-in-memory-data-grids/
+http://tech.leroymerlin.com.br/devemos-usar-nosql-e-mongodb
+http://orientdb.com/why-orientdb/
+
+
+https://aws.amazon.com/pt/dynamodb/details/
+
+http://tech.leroymerlin.com.br/devemos-usar-nosql-e-mongodb
+http://www.gonow.com.br/blog/2011/07/29/o-mongodb-aplicado-ao-cartolafc-da-globo-com/
+
+Grupo 03
+* Willian Hofner - https://github.com/hofnerw - Não mas gostaria muito de aprender
+* João Henrique p. Heringer - https://github.com/jhpheringer - Não
+* Hernani Prates Costa Dias - https://github.com/hernanidias - Não
+* Breno Ubaldo Silveira Mendonça - https://github.com/brenousm - Não
+Tema: Case Cartola FC ou Leroy Merlin
