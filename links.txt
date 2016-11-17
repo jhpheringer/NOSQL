@@ -1,3 +1,6 @@
+*github professor com as aulas
+* https://github.com/gcouti/
+
 http://www.tibco.com/blog/2015/04/15/nosql-in-practice-real-world-use-cases-and-customer-success-stories-for-in-memory-data-grids/
 http://tech.leroymerlin.com.br/devemos-usar-nosql-e-mongodb
 http://orientdb.com/why-orientdb/
@@ -9,8 +12,8 @@ http://tech.leroymerlin.com.br/devemos-usar-nosql-e-mongodb
 http://www.gonow.com.br/blog/2011/07/29/o-mongodb-aplicado-ao-cartolafc-da-globo-com/
 
 Grupo 03
-* Willian Hofner - https://github.com/hofnerw - N„o mas gostaria muito de aprender
-* Jo„o Henrique p. Heringer - https://github.com/jhpheringer - N„o
-* Hernani Prates Costa Dias - https://github.com/hernanidias - N„o
-* Breno Ubaldo Silveira MendonÁa - https://github.com/brenousm - N„o
+* Willian Hofner - https://github.com/hofnerw - N√£o mas gostaria muito de aprender
+* Jo√£o Henrique p. Heringer - https://github.com/jhpheringer - N√£o
+* Hernani Prates Costa Dias - https://github.com/hernanidias - N√£o
+* Breno Ubaldo Silveira Mendon√ßa - https://github.com/brenousm - N√£o
 Tema: Case Cartola FC ou Leroy Merlin
