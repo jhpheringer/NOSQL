@@ -5,7 +5,6 @@ http://www.tibco.com/blog/2015/04/15/nosql-in-practice-real-world-use-cases-and-
 http://tech.leroymerlin.com.br/devemos-usar-nosql-e-mongodb
 http://orientdb.com/why-orientdb/
 
-
 https://aws.amazon.com/pt/dynamodb/details/
 
 http://tech.leroymerlin.com.br/devemos-usar-nosql-e-mongodb
